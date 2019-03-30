@@ -1,0 +1,6 @@
+syntax = "proto3";
+package twwhatever.demo;
+import "twwhatever/demo/message.proto";
+service DemoService {
+    rpc Function (DemoMessage) returns (DemoMessage) {}
+}
