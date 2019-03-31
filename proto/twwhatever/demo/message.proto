@@ -1,0 +1,5 @@
+syntax = "proto3";
+package twwhatever.demo;
+message DemoMessage {
+    string m = 1;
+}
